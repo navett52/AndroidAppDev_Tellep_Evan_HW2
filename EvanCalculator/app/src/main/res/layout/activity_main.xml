@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/display_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:layout_span="4" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/buttons_1-3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/num_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_one"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/num_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_two"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/num_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_three"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/operator_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/operator_plus"
+                style="?android:attr/buttonBarButtonStyle" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/buttons_4-6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/num_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_four"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/num_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_five"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/num_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_six"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/operator_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/operator_minus"
+                style="?android:attr/buttonBarButtonStyle" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/buttons_7-9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/num_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_seven"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/num_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_eight"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/num_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_nine"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/operator_multiply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/operator_multiply"
+                style="?android:attr/buttonBarButtonStyle" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/buttons_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/decimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/decimal"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/num_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num_zero"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clear"
+                style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/operator_divide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/operator_divide"
+                style="?android:attr/buttonBarButtonStyle" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/buttons_equals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/operator_equals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/operator_equals"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_span="4"/>
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

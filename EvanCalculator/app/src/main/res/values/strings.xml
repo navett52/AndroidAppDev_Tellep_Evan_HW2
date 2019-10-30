@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EvanCalculator</string>
+
+    <!-- Numbers for keypad -->
+    <string name="num_one">1</string>
+    <string name="num_two">2</string>
+    <string name="num_three">3</string>
+    <string name="num_four">4</string>
+    <string name="num_five">5</string>
+    <string name="num_six">6</string>
+    <string name="num_seven">7</string>
+    <string name="num_eight">8</string>
+    <string name="num_nine">9</string>
+    <string name="num_zero">0</string>
+
+    <!-- Operators -->
+    <string name="operator_plus">+</string>
+    <string name="operator_minus">-</string>
+    <string name="operator_multiply">*</string>
+    <string name="operator_divide">/</string>
+    <string name="operator_equals">=</string>
+
+    <!-- Special buttons -->
+    <string name="decimal">.</string>
+    <string name="clear">C</string>
+</resources>
